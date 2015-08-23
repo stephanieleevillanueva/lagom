@@ -48,6 +48,11 @@ ul {
 }
 
 a {
+  /*color: {{ site.data.theme.highlight_color }};*/
+  text-decoration: none;
+}
+
+a.link {
   color: {{ site.data.theme.highlight_color }};
   text-decoration: none;
 }
@@ -58,7 +63,7 @@ a:hover {
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  /*color: {{ site.data.theme.highlight_color }};*/
 }
 
 table {
